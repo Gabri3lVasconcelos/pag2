@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Equivalency   
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20101025
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Acessibilidade na Web</title>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<style>
+	body {
+		font-size: 16px;
+	}
+
+	#increaseFontBtn {
+		cursor: pointer;
+	}
+</style>
+
+<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		document.getElementById('increaseFontBtn').addEventListener('click', function() {
+			// Obtém o tamanho atual da fonte
+			var currentSize = window.getComputedStyle(document.body).fontSize;
+
+			// Remove "px" da string e converte para número
+			currentSize = parseFloat(currentSize);
+
+			// Aumenta o tamanho da fonte
+			var newSize = currentSize * 1.2;
+
+			// Define o novo tamanho da fonte para o corpo da página
+			document.body.style.fontSize = newSize + 'px';
+		});
+	});
+</script>
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+		<div id="logo">
+			<h1><a href="#">G4 em quatro minutos</a></h1>
+			<p> Produzido por Gabriel </p>
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="file:///C:/Users/User/Desktop/Trabalhohtml/index.html">Home</a></li>
+				<li><a href="file:///C:/Users/User/Desktop/Trabalhohtml/Pag2.html">Softwere de tela</a></li>
+				<li><a href="file:///C:/Users/User/Desktop/Trabalhohtml/Pag3.html">Ampliadores de tela</a></li>
+				<li><a href="file:///C:/Users/User/Desktop/Trabalhohtml/Pag4.html">App acessiveis</a></li>
+				<li><a href="file:///C:/Users/User/Desktop/Trabalhohtml/Pag5.html">Dicas para os sites</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- end #header -->
+	<div id="page">
+		<div id="page-bgtop">
+			<div id="page-bgbtm">
+				<div id="content">
+					<div class="post">
+						<h2 class="title"><a href="#">softwares de telas</a></h2>
+						<p class="meta">Produzido por<a href="#">Gabriel</a>  5 do 12 , 2023
+						<div class="entry">
+							<p><img src="img10.png" width="538" height="200" alt="" /></p>
+							<p>O software de tela desempenha um papel fundamental na promoção da acessibilidade digital, permitindo que pessoas com deficiências visuais tenham uma interação eficaz com computadores e dispositivos. Essas ferramentas convertem informações exibidas na tela em formato auditivo ou tátil, facilitando a compreensão e a navegação para usuários com limitações visuais. Além disso, os softwares de tela geralmente oferecem recursos como leitores de tela, que pronunciam o conteúdo exibido, e suporte a teclas de atalho, simplificando a interação para quem utiliza apenas o teclado.</p>
+
+						</div>
+					</div>
+					<div class="post">
+						
+						<div class="entry">
+							<p><img src="img11.jpeg" width="538" height="200" alt="" /></p>
+							<p>Os softwares de tela têm evoluído significativamente, incorporando tecnologias avançadas, como reconhecimento de voz e descrição de imagens, para proporcionar uma experiência mais rica e inclusiva. Essas ferramentas desempenham um papel crucial na quebra de barreiras digitais, garantindo que a informação e as funcionalidades dos computadores estejam acessíveis a todos, independentemente de suas capacidades visuais.</p>
+							
+						</div>
+					</div>
+					<div style="clear: both;">&nbsp;</div>
+				</div>
+				<!-- end #content -->
+				<div id="sidebar">
+					<ul>
+						<li>
+							<div id="search" >
+								<form method="get" action="#">
+									<div>
+										<input type="text" name="s" id="search-text" value="" />
+										<input type="submit" id="search-submit" value="GO" />
+									</div>
+								</form>
+							</div>
+							<div style="clear: both;">&nbsp;</div>
+						</li>
+						 <!-- Seu código existente ... -->
+
+    <button id="increaseFontBtn">Aumentar Fonte</button>
+						<li>
+							<h2>Voce pode gostar</h2>
+						</li>
+						<li>
+							<h2>Videos relacionados</h2>
+							<ul>
+								<li><a href="https://youtu.be/aPknwW8mPAM?si=VvgCy4B39VPgndX-">Como é a visao de um autista</a></li>
+								<li><a href="#">A importancia de ser ascessivel</a></li>
+								<li><a href="#">Aprendendo libras em 5 dias</a></li>
+								<li><a href="#">softweres de tela</a></li>
+								<li><a href="#">A vida de uma pessoa surda</a></li>
+							</ul>
+						</li>
+						<li>
+							<h2>Materias relacionadas</h2>
+							<ul>
+								<li><a href="https://www.alura.com.br/artigos/o-que-e-acessibilidade-web">Oque é Acessibilidade na web</a></li>
+								<li><a href="#">Acessibilidade Digital: Desenvolvendo Experiências Inclusivas</a></li>
+								<li><a href="#">Design Universal na Web: Criando Interfaces para Todos</a></li>
+								<li><a href="#">Tecnologias Assistivas: Transformando a Experiência Online</a></li>
+								<li><a href="#">Inclusão Digital: Estratégias e Práticas para Acessibilidade na Web</a></li>
+								
+							</ul>
+						</li>
+						<li>
+							<h2>Orgaos</h2>
+							<ul>
+								<li><a href="https://emag.governoeletronico.gov.br/">Modelo de Acessibilidade em Governo Eletrônico (eMag)</a></li>
+								<li><a href="#">Conselho Nacional para Acessibilidade Digital (CNAD)</a></li>
+								<li><a href="#">Instituto de Tecnologias Inclusivas (ITI)</a></li>
+								<li><a href="#">Agência de Acessibilidade Digital (AAD)</a></li>
+								<li><a href="#">Comitê Nacional para a Promoção da Acessibilidade Online (CNAO)</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<!-- end #sidebar -->
+				<div style="clear: both;">&nbsp;</div>
+			</div>
+		</div>
+	</div>
+	<!-- end #page -->
+</div>
+<div id="footer">
+	<p>desenvolvido por Gabriel , Ana Luiza e Anna Julia</p>
+</div>
+<!-- end #footer -->
+</body>
+</html>
